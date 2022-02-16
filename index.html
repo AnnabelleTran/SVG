@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: gray;
+            overflow: hidden;
+        }
+        #star{
+            background-color: rgb(23, 56, 146);
+            padding: 20.25vw 10vw;
+        }
+        #whiteban{
+            transform: translate(-.15vw, -15vw);
+        }
+        #redban{
+            transform: translate(39.5vw, -28vw);
+
+        }
+    </style>
+</head>
+<body>
+    <svg id = "star" width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:white;stroke:white;stroke-width:5;" />
+      </svg>      
+
+    <svg id = "whiteban" width="924.8" height="600">
+        <rect width="924.8" height="400" style="fill:white;stroke-width:10;stroke:white">
+      </svg>
+      <svg id = "redban" width="1000" height="600">
+        <rect width="1000" height="500" style="fill:rgb(145, 17, 17);stroke-width:10;stroke:rgb(145, 17, 17)" />
+      </svg>
+</body>
+</html>
